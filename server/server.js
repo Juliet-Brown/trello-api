@@ -24,8 +24,11 @@ const key = "8f05e54f443c54afc22e78126fa04062";
 server.route({
   method: "GET",
   path: "/members/v1/boards",
+  options: {
+    cors: true
+  },
   handler: async (r, h) => {
-    var options = {
+    const options = {
       uri: "https://api.trello.com/1/members/julietbrown8/boards",
       qs: {
         token,
@@ -46,13 +49,17 @@ server.route({
 server.route({
   method: "GET",
   path: "/1/boards/id/actions",
+  options: {
+    cors: true
+  },
   handler: async (r, h) => {
     var options = {
-      uri: "https://api.trello.com//1/boards/SJ8Uf3Az/actions",
+      uri: "https://api.trello.com/1/boards/SJ8Uf3Az/actions",
       qs: {
         token,
         key
       },
+      cors: true,
       headers: {
         "User-Agent": "Request-Promise"
       },

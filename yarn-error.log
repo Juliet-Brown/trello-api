@@ -1,0 +1,63 @@
+Arguments: 
+  /Users/juliet/.nvm/versions/node/v10.9.0/bin/node /Users/juliet/.nvm/versions/node/v10.9.0/bin/yarn add create-react-app.
+
+PATH: 
+  /Users/juliet/.nvm/versions/node/v10.9.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.9.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/create-react-app.: Not found
+      at Request.params.callback [as _callback] (/Users/juliet/.nvm/versions/node/v10.9.0/lib/node_modules/yarn/lib/cli.js:65894:18)
+      at Request.self.callback (/Users/juliet/.nvm/versions/node/v10.9.0/lib/node_modules/yarn/lib/cli.js:129018:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/juliet/.nvm/versions/node/v10.9.0/lib/node_modules/yarn/lib/cli.js:129990:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/juliet/.nvm/versions/node/v10.9.0/lib/node_modules/yarn/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1085:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "trello-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Juliet-Brown/trello-api.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Juliet-Brown/trello-api/issues"
+    },
+    "homepage": "https://github.com/Juliet-Brown/trello-api#readme",
+    "dependencies": {
+      "hapi": "^17.8.1",
+      "hapi-auth-basic": "^5.0.0",
+      "hapi-pino": "^5.2.0",
+      "inert": "^5.1.2",
+      "nconf": "^0.10.0",
+      "request": "^2.88.0",
+      "request-promise": "^4.2.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

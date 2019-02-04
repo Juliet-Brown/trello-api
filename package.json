@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "react-scripts test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -17,12 +20,27 @@
   },
   "homepage": "https://github.com/Juliet-Brown/trello-api#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "hapi": "^17.8.1",
     "hapi-auth-basic": "^5.0.0",
     "hapi-pino": "^5.2.0",
     "inert": "^5.1.2",
+    "lodash.get": "^4.4.2",
     "nconf": "^0.10.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.3",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
-  }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
